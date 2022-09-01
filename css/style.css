@@ -39,10 +39,6 @@ html {
 
 /* FLOAT CARDS */
 
-/* .float_cards{
-  margin-top: 5rem;
-} */
-
 .clearfix::after {
   content: "";
   display: table;
@@ -54,7 +50,27 @@ html {
     width: calc(100% / 3);
     float: left;
     border: 3px solid antiquewhite;
+    /* DEBUG */
     height: 50px;
 }
 
-/* color  subtitle rgba(61, 171, 229, 1)*/
+/* CARDS text  */
+.cards h3{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+.cards span{
+  color: rgb(0, 0, 0);
+  display: block;
+}
+
+ /* CARDS email link */
+
+.cards a:link{
+  color: rgba(61, 171, 229, 1);
+  text-decoration: none;
+}
+.cards a:hover {
+  color: rgb(229, 51, 113);
+  text-decoration: none;
+}
