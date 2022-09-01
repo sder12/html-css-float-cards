@@ -24,6 +24,7 @@ html {
 }
 .title h1{
   font-size: 2rem;
+  color: rgb(229, 51, 113);
 }
 
 .title p{
@@ -32,15 +33,21 @@ html {
 
 /* FLOAT CARDS */
 .float_cards{
-
+  margin-top: 5rem;
 }
 
-.clearfix{
-
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .cards{
-    background-color: blue;
+    background-color: rgba(15, 14, 23, 1);
     width: calc(100% / 3);
+    float: left;
+    border: 3px solid white;
     height: 50px;
 }
+
+/* color  subtitle rgba(61, 171, 229, 1)*/
