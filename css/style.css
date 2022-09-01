@@ -64,6 +64,12 @@ html {
   color: rgb(255, 255, 255);
   display: block;
   font-size: 1rem;
+  margin-top: 0.2em; 
+}
+
+.cards h3, a, span{
+  margin-top: 0.5em;
+  /* line-height: 2em; impostata con margin-top */
 }
 
 /* CARDS email link */
