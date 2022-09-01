@@ -8,7 +8,7 @@
 /* COMMON */
 .container {
   margin: auto;
-  width: 80%;
+  width: 60%;
   background-color: antiquewhite;
 }
 
@@ -17,6 +17,30 @@ html {
   font-size: 62,5%;
 }
 
-/* HEADER */
-/* MAIN */
-/* FOOTER */
+/* TITLE */
+
+.title{ 
+  margin-top: 3em;
+}
+.title h1{
+  font-size: 2rem;
+}
+
+.title p{
+  font-size: 1rem;
+}
+
+/* FLOAT CARDS */
+.float_cards{
+
+}
+
+.clearfix{
+
+}
+
+.cards{
+    background-color: blue;
+    width: calc(100% / 3);
+    height: 50px;
+}
