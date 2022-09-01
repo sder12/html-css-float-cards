@@ -13,27 +13,27 @@
 }
 
 html {
-  font-family: 'Fredoka', sans-serif;
-  font-size: 62,5%;
+  font-family: "Fredoka", sans-serif;
+  font-size: 62, 5%;
 }
 
-.mb{
+.mb {
   margin-bottom: 2rem;
 }
 
 /* TITLE */
 
-.title{ 
-  margin-top: 3em; 
+.title {
+  margin-top: 3em;
   text-align: center;
 }
 
-.title h1{
+.title h1 {
   font-size: 2rem;
   color: rgb(229, 51, 113);
 }
 
-.title p{
+.title p {
   font-size: 1rem;
 }
 
@@ -45,32 +45,45 @@ html {
   clear: both;
 }
 
-.cards{
-    background-color: rgba(15, 14, 23, 1);
-    width: calc(100% / 3);
-    float: left;
-    border: 3px solid antiquewhite;
-    /* DEBUG */
-    height: 50px;
+.cards {
+  background-color: rgba(15, 14, 23, 1);
+  width: calc(100% / 3);
+  float: left;
+  border: 3px solid antiquewhite;
+  /* DEBUG */
+  /* height: 100px; */
 }
 
 /* CARDS text  */
-.cards h3{
-  color: rgb(0, 0, 0);
+.cards h3 {
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
+  font-size: 1rem;
 }
-.cards span{
-  color: rgb(0, 0, 0);
+.cards span {
+  color: rgb(255, 255, 255);
   display: block;
+  font-size: 1rem;
 }
 
- /* CARDS email link */
+/* CARDS email link */
+.cards a {
+  font-size: 1rem;
+}
 
-.cards a:link{
+.cards a:link {
   color: rgba(61, 171, 229, 1);
   text-decoration: none;
 }
 .cards a:hover {
   color: rgb(229, 51, 113);
   text-decoration: none;
+}
+
+/* CARDS images */
+
+.cards img {
+  width: 30%;
+  float: left;
+  margin-right: 1em;
 }
