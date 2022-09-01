@@ -17,11 +17,17 @@ html {
   font-size: 62,5%;
 }
 
+.mb{
+  margin-bottom: 2rem;
+}
+
 /* TITLE */
 
 .title{ 
-  margin-top: 3em;
+  margin-top: 3em; 
+  text-align: center;
 }
+
 .title h1{
   font-size: 2rem;
   color: rgb(229, 51, 113);
@@ -32,9 +38,10 @@ html {
 }
 
 /* FLOAT CARDS */
-.float_cards{
+
+/* .float_cards{
   margin-top: 5rem;
-}
+} */
 
 .clearfix::after {
   content: "";
