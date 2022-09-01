@@ -46,7 +46,7 @@ html {
     background-color: rgba(15, 14, 23, 1);
     width: calc(100% / 3);
     float: left;
-    border: 3px solid white;
+    border: 3px solid antiquewhite;
     height: 50px;
 }
 
