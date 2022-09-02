@@ -7,8 +7,9 @@
 
 /* COMMON */
 .container {
-  margin: auto;
+  margin: 0 auto;
   width: 60%;
+  max-width: 1200px; /* per far in modo che negli schermi grandi non si ampli troppo distruggendo il layout */
   background-color: rgb(255, 255, 255);
 }
 
@@ -47,49 +48,57 @@ html {
 
 .cards {
   background-color: rgba(15, 14, 23, 1);
-  width: calc(100% / 3);
   float: left;
-  border: 6px solid rgb(255, 255, 255);
-  /* DEBUG */
-  /* height: 100px; */
+
+  /* width: calc(100% / 3);
+  border: 6px solid rgb(255, 255, 255); */
+  width: calc(100% / 3  - (2em / 3));
+  margin-right: 1em;
+}
+
+.cards:nth-of-type(3n){
+  margin-right: 0px;
 }
 
 /* CARDS text  */
-.cards h3 {
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
+
+.cards:not(a){
+  color: rgb(255, 255, 255); 
+}
+
+.cards > * {
   font-size: 1rem;
 }
+
+.cards h3 {
+  text-transform: uppercase;
+}
+
 .cards span {
-  color: rgb(255, 255, 255);
-  display: block;
-  font-size: 1rem;
+  display: block;  
   margin-top: 0.3em; 
 }
 
 .cards h3, a{
   margin-top: 0.8em;
-  /* line-height: 2em; impostata con margin-top */
 }
 
 /* CARDS email link */
 .cards a {
-  font-size: 1rem;
+  text-decoration: none;
 }
 
 .cards a:link {
   color: rgba(61, 171, 229, 1);
-  text-decoration: none;
 }
 .cards a:hover {
-  color: rgb(229, 51, 113);
-  text-decoration: none;
+  color: rgb(229, 51, 113);  
 }
 
 /* CARDS images */
-
 .cards img {
   width: 30%;
   float: left;
   margin-right: 1em;
 }
+
